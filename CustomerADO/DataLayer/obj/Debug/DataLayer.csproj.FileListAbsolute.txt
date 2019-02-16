@@ -1,0 +1,5 @@
+C:\Users\m9peru\Desktop\FSE\ADO\CustomerADO\DataLayer\bin\Debug\DataLayer.dll
+C:\Users\m9peru\Desktop\FSE\ADO\CustomerADO\DataLayer\bin\Debug\DataLayer.pdb
+C:\Users\m9peru\Desktop\FSE\ADO\CustomerADO\DataLayer\obj\Debug\DataLayer.csprojResolveAssemblyReference.cache
+C:\Users\m9peru\Desktop\FSE\ADO\CustomerADO\DataLayer\obj\Debug\DataLayer.dll
+C:\Users\m9peru\Desktop\FSE\ADO\CustomerADO\DataLayer\obj\Debug\DataLayer.pdb

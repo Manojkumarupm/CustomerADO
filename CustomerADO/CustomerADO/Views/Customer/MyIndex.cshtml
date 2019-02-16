@@ -1,0 +1,54 @@
+﻿@model IEnumerable<DataLayer.Customer>
+
+@{
+    ViewBag.Title = "MyIndex";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateMyCustomer")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CustomerAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DOB)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Salary)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CustomerAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DOB)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "EditMyCustomer", new { id = item.CustomerId }) |
+                @Html.ActionLink("Details", "DetailsMyCustomer", new { id = item.CustomerId }) |
+                
+                @Html.ActionLink("Delete", "DeleteMyCustomer", new { id = item.CustomerId })
+
+            </td>
+        </tr>
+    }
+
+</table>
